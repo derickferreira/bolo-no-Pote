@@ -42,6 +42,10 @@ body {
   background: #000;
 }
 
+.inner_informations h2 {
+    color: var(--cor-colour04);
+}
+
 .inner_informations .contact {
   display: flex;
   gap: 1rem;
@@ -77,13 +81,13 @@ body {
   font-size: 3rem;
 }
 
-#header .navbar {
+#header #navbar {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
-#header .navbar li a {
+#header #navbar li a {
   color: #8b4513;
   font-family: var(--roboto);
   font-size: 1.1rem;
@@ -91,14 +95,14 @@ body {
   text-decoration: underline;
 }
 
-#header .navbar li {
+#header #navbar li {
   transition: 0.3s;
 }
 
-#header .navbar li:hover {
+#header #navbar li:hover {
   transform: scale(1.1);
 }
-#header .navbar li:active {
+#header #navbar li:active {
   transform: scale(0.95);
 }
 
@@ -113,6 +117,7 @@ body {
 
 /* important */
 .important {
+    margin: 0 auto;
   margin: 0 auto;
   text-align: center;
   font-family: var(--robotoSlab);
@@ -258,3 +263,4 @@ main {
   font-weight: bold;
   padding: 0.5rem;
 }
+
