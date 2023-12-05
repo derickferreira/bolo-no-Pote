@@ -1,0 +1,22 @@
+/* global */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-boxw;
+}
+
+:root {
+  --cor-colour01: #87ceeb;
+  --cor-colour02: #8b4513;
+  --cor-colour03: #98fb98;
+  --cor-colour04: #ffb6c1;
+  --cor-colour05: #4a507d;
+  --cor-colour06: #e1e4fd;
+
+  --robotoSlab: "Roboto Slab";
+  --roboto: "Roboto";
+  --pacifico: "Pacifico";
+}
+a {
+  text-decoration: none;
+}
