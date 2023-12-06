@@ -231,6 +231,10 @@ main {
   margin-bottom: 2rem;
 }
 
+#footer #last_thoughts p a {
+  text-decoration: underline;
+}
+
 #footer #history {
   text-align: center;
   max-width: 700px;
