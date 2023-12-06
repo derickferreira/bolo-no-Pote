@@ -38,6 +38,11 @@
 }
 
 @media screen and (max-width: 492px) {
+
+  #header {
+    padding: .5rem;
+  }
+
   .carousel-inner {
     height: 200px;
   }
